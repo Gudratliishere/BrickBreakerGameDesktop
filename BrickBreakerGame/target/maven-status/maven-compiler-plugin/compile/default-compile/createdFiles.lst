@@ -1,0 +1,10 @@
+com\company\brickbreakergame\game\GamePlay.class
+com\company\brickbreakergame\intersections\IntersectionBallBrick.class
+com\company\brickbreakergame\components\Ball.class
+com\company\brickbreakergame\properties\Level.class
+com\company\brickbreakergame\intersections\IntersectionBallPaddle.class
+com\company\brickbreakergame\components\Paddle.class
+com\company\brickbreakergame\game\Sound.class
+com\company\brickbreakergame\properties\Score.class
+com\company\brickbreakergame\components\Brick.class
+com\company\brickbreakergame\Main.class
