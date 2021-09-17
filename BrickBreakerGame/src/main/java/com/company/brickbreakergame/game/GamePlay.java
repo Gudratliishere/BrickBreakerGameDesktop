@@ -30,16 +30,16 @@ public class GamePlay extends JPanel implements KeyListener, ActionListener
 
     private boolean play = false;
 
-    public static Timer timer;
+    private static Timer timer;
     private final int delay = 8;
 
-    public static final Brick brick = new Brick();
-    public static final Ball ball = new Ball();
-    private static final Paddle paddle = new Paddle();
-    private static final Score score = new Score();
-    private static final Level level = new Level();
-    private static final IntersectionBallPaddle intersectionBallPaddle = new IntersectionBallPaddle();
-    private static final IntersectionBallBrick intersectionBallBrick = new IntersectionBallBrick();
+    private final Brick brick = new Brick();
+    private final Ball ball = new Ball();
+    private final Paddle paddle = new Paddle();
+    private final Score score = new Score();
+    private final Level level = new Level();
+    private final IntersectionBallPaddle intersectionBallPaddle = new IntersectionBallPaddle();
+    private final IntersectionBallBrick intersectionBallBrick = new IntersectionBallBrick();
 
     public GamePlay()
     {
